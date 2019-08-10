@@ -13,6 +13,14 @@ $deployments = [
         ],
         "post_deployment_commands" =>[
 
+        ],
+        "post_deployment_commands_file_changed"=>[
+            [
+                "install_npm"=>[
+                    "file"=> "",
+                    "commands"=>[]
+                ]
+            ]
         ]
     ]
 ];
